@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bunny859000040.github.io/sitemap.xml
