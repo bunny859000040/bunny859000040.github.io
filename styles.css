@@ -359,7 +359,7 @@ main {
 }
 
 .research-list li {
-  padding: 17px 0;
+  padding: 11px 0;
   color: #435361;
   border-bottom: 1px solid var(--line);
 }
@@ -375,7 +375,7 @@ main {
 }
 
 .timeline li {
-  padding: 20px 0;
+  padding: 12px 0;
   display: grid;
   grid-template-columns: 74px 1fr;
   gap: 20px;
@@ -400,6 +400,13 @@ main {
 .timeline div {
   color: #435361;
   font-size: 1rem;
+}
+
+.news-icon {
+  display: inline-block;
+  margin-right: 0.4em;
+  font-size: 0.9em;
+  line-height: 1;
 }
 
 .split-heading {
@@ -460,7 +467,7 @@ main {
 }
 
 .publication-item {
-  padding: 22px 0;
+  padding: 15px 0;
   display: grid;
   grid-template-columns: 116px minmax(0, 1fr);
   gap: 24px;
@@ -515,6 +522,11 @@ main {
   line-height: 1.55;
 }
 
+.authors strong {
+  color: var(--teal);
+  font-weight: 800;
+}
+
 .publication-venue {
   margin-top: 2px;
   color: var(--faint);
@@ -536,7 +548,7 @@ main {
 }
 
 .honor-list li {
-  padding: 15px 0;
+  padding: 10px 0;
   display: grid;
   grid-template-columns: 72px minmax(0, 1fr);
   gap: 18px;
